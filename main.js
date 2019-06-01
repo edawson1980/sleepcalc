@@ -35,3 +35,7 @@ const getActualSleepHours = () => {
   getSleepHours('Sunday')
   //implicit return means no 'return' keyword
 }
+const getIdealSleepHours = () => {
+  let idealHours = 9;
+  return idealHours * 7;
+}
