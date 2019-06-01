@@ -25,3 +25,6 @@ const getSleepNumbers = day => {
     'That\'s not a day.'
   };
 }
+const getActualSleepHours = () => {
+  
+}
