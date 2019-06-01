@@ -47,8 +47,9 @@ const getSleepDebt = () => {
   if(actualSleep === idealSleep){
     console.log('Congrats, you\'ve had the perfect amount of sleep.');
   }else if (actualSleep > idealSleep){
-    console.log('Wake up, Lazybones!');
+    console.log(`Wake up, Lazybones! You got an extra ${actualSleep - idealSleep} hours this week.`);
   }else{
-    console.log('You absolutely need to go back to bed');
+    console.log(`You absolutely need to go back to bed.  You missed ${idealSleep - actualSleep} hours this week.`);
+    //if actualSleep is less than idealSleep
   }
 };
