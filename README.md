@@ -1,2 +1,2 @@
 # sleepcalc
-snooze calculator
+snooze calculator and js function practice
