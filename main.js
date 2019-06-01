@@ -25,7 +25,7 @@ const getSleepHours = day => {
     'That\'s not a day.'
   };
 }
-const getActualSleepHours = () => {
+const getActualSleepHours = () => //concise function means no brackets, and use an implicit return
   getSleepHours('Monday')+
   getSleepHours('Tuesday')+
   getSleepHours('Wednesday')+
@@ -34,7 +34,7 @@ const getActualSleepHours = () => {
   getSleepHours('Saturday')+
   getSleepHours('Sunday')
   //implicit return means no 'return' keyword
-}
+
 const getIdealSleepHours = () => {
   let idealHours = 9;
   return idealHours * 7;
