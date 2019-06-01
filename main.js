@@ -41,7 +41,7 @@ const getIdealSleepHours = () => {
 }
 
 const getSleepDebt = () => {
-  let actualSleep = getSleepHours();
+  let actualSleep = getActualSleepHours();
   let idealSleep = getIdealSleepHours();
 
   if(actualSleep === idealSleep){
@@ -53,5 +53,4 @@ const getSleepDebt = () => {
     //if actualSleep is less than idealSleep
   }
 };
-
-getSleepDebt();
+getSleepDebt()
