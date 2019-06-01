@@ -1,4 +1,4 @@
-const getSleepNumbers = day => {
+const getSleepHours = day => {
   switch(day){
     case 'Monday':
     return 8
@@ -26,5 +26,12 @@ const getSleepNumbers = day => {
   };
 }
 const getActualSleepHours = () => {
-  
+  getSleepHours('Monday')+
+  getSleepHours('Tuesday')+
+  getSleepHours('Wednesday')+
+  getSleepHours('Thursday')+
+  getSleepHours('Friday')+
+  getSleepHours('Saturday')+
+  getSleepHours('Sunday')
+  //implicit return means no 'return' keyword
 }
