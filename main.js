@@ -53,3 +53,5 @@ const getSleepDebt = () => {
     //if actualSleep is less than idealSleep
   }
 };
+
+getSleepDebt();
